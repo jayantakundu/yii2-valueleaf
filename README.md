@@ -16,7 +16,7 @@ Add component to `config/main.php`
 ```
 ## Usage
 
-## Send email 
+## Send sms 
 ```php
 \Yii::$app->sms->send(array('to'=>array('7053xxxxxx'),'message'=>'Sorry you had to cancel your reservation.We hope to EazyBook you soon again with a special deal always! Cheers, EazyConcierge'));
 ```
